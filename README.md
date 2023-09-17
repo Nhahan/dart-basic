@@ -1,3 +1,3 @@
 # dart-basic
 
-![image](https://github.com/Nhahan/dart-basic/assets/81916648/f215951a-4239-4b95-8a12-9adc43afccff)
+<img width="771" alt="image" src="https://github.com/Nhahan/dart-basic/assets/81916648/4b2f8df5-317d-4a10-a790-a372eac22028">
