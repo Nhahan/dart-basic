@@ -5,7 +5,7 @@ void main() {
     2, 
     3, 
     4,
-    if (true) 5,
+    if (true) 5, // returns 5
   ];
 
   numbers.add(6);
