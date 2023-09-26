@@ -12,5 +12,5 @@ void main() {
 
   List<Map<String, Object>> map3 = [
     map1, map2
-  ]
+  ];
 }
