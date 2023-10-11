@@ -2,10 +2,7 @@ class Player {
   late String name;
   late int age;
 
-  Player(String name, int age) {
-    this.name = name;
-    this.age = age;
-  }
+  Player(this.name, this.age);
 
   void sayHello() {
     print("Hi, my name is $name");
