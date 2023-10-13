@@ -2,7 +2,10 @@ class Player {
   late String name;
   late int age;
 
-  Player({this.name, this.age});
+  Player({
+    required this.name, 
+    required this.age
+  });
 
   void sayHello() {
     print("Hi, my name is $name");
@@ -10,6 +13,9 @@ class Player {
 }
 
 void main() {
-  var player = Player('A', 21);
+  var player = Player(
+    name: 'A', 
+    age: 21
+  );
   player.sayHello();
 }
