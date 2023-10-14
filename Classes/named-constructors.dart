@@ -38,4 +38,8 @@ void main() {
     name: 'B', 
     age: 23,
   );
+
+  player.sayHello();
+  bluePlayer.sayHello();
+  redPlayer.sayHello();
 }
