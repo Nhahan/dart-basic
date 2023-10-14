@@ -12,9 +12,16 @@ class Player {
   Player.createBluePlayer({
     required String name, 
     required int age
-}) : this.age = age,
+  }) : this.age = age,
     this.name = name,
     this.team = 'blue';
+
+  Player.createRedPlayer({
+    required String name, 
+    required int age
+  }) : this.age = age,
+    this.name = name,
+    this.team = 'red';
 
   void sayHello() {
     print("Hi, my name is $name");
@@ -26,5 +33,9 @@ void main() {
   var bluePlayer = Player.createBluePlayer(
     name: 'A', 
     age: 21,
+  );
+  var redPlayer = Player.createRedPlayer(
+    name: 'B', 
+    age: 23,
   );
 }
