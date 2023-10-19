@@ -1,5 +1,19 @@
 enum Team { red, blue }
 
+class Player {
+  String name;
+  Team team;
+
+  Player({
+    required this.name,
+    required this.team,
+  });
+}
+
 void main() {
-  print(Team.red);
+  var player = Player(
+    name: 'hello',
+    team: Team.red,
+  );
+  print(player);
 }
