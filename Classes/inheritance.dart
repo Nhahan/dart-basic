@@ -22,7 +22,8 @@ class Player extends Human {
 
   @override
   void sayHello() {
-    print("no more hello!");
+    super.sayHello();
+    print("no more hello!!");
   }
 }
 
