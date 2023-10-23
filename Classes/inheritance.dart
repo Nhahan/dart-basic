@@ -19,6 +19,11 @@ class Player extends Human {
     required this.team,
     required String name
   }) : super(name: name);
+
+  @override
+  void sayHello() {
+    print("no more hello!");
+  }
 }
 
 void main() {
